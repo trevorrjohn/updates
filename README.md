@@ -6,4 +6,4 @@ Follow the instructions below.
     $ cd updates
     $ bundle install
     $ cp config/database.yml.example config/database.yml
-    $ rake db:create
+    $ rake db:setup
