@@ -6,10 +6,12 @@ env:
   - DB=postgresql
 
 script:
-  - RAILS_ENV=test bundle exec rake --trace db:migrate test
+  - RAILS_ENV=test bundle exec rake db:migrate --trace
+  - bundle exec rake test:prepare
+  - bundle exec rake
 
 before_script:
-  - sudo apt-get install libimage-exiftool-perl graphicsmagick
+  - cp config/database.yml.example config/database.yml
   - psql -c 'create database updates_development' -U postgres
 
 notifications:
