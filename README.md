@@ -1,4 +1,4 @@
-# Updates and Reminders | [![Build Status](https://travis-ci.org/tjohn/updates.png)](https://travis-ci.org/tjohn/updates)
+# Updates and Reminders | [![Build Status](https://travis-ci.org/tjohn/updates.png)](https://travis-ci.org/tjohn/updates) | [![Code Climate](https://codeclimate.com/github/tjohn/updates.png)](https://codeclimate.com/github/tjohn/updates)
 
 Send reminders via text.
 
