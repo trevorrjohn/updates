@@ -11,6 +11,7 @@ gem 'jbuilder', '~> 1.2'
 gem 'jquery-rails'
 gem 'pg'
 gem 'turbolinks'
+gem 'therubyracer'
 gem 'uglifier', '>= 1.3.0'
 gem 'unicorn', group: [ :production ]
 
