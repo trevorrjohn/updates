@@ -41,6 +41,10 @@ group :assets do
   gem 'haml-rails', github: 'indirect/haml-rails'
 end
 
+group :development do
+  gem 'thin'
+end
+
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
 
