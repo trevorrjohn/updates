@@ -1,4 +1,4 @@
-# Install guide
+# Install guide | [![Build Status](https://travis-ci.org/[tjohn]/[updates].png)](https://travis-ci.org/[tjohn]/[updates])
 
 Follow the instructions below.
 
