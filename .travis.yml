@@ -11,3 +11,6 @@ script:
 before_script:
   - sudo apt-get install libimage-exiftool-perl graphicsmagick
   - psql -c 'create database updates_development' -U postgres
+
+notifications:
+  email: false
