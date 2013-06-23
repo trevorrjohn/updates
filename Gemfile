@@ -6,6 +6,7 @@ gem 'sprockets-rails', github: 'rails/sprockets-rails'
 gem 'sass-rails',      github: 'rails/sass-rails'
 gem 'coffee-rails',    github: 'rails/coffee-rails'
 
+gem 'haml-rails', github: 'indirect/haml-rails'
 gem 'jbuilder', '~> 1.2'
 gem 'jquery-rails'
 gem 'pg'
@@ -18,18 +19,13 @@ gem 'sdoc', require: false, group: [ :doc ]
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
-group :assets do
-  gem 'haml-rails', github: 'indirect/haml-rails'
-end
-
 group :development do
   gem 'thin'
 end
 
-gem 'rspec-rails'
-
 group :development, :test do
   gem 'pry'
+  gem 'rspec-rails', '~> 2.0'
 end
 
 group :test do
