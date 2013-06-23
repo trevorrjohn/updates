@@ -1,4 +1,8 @@
-# Install guide | [![Build Status](https://travis-ci.org/[tjohn]/[updates].png)](https://travis-ci.org/[tjohn]/[updates])
+# Updates and Reminders | [![Build Status](https://travis-ci.org/tjohn/updates.png)](https://travis-ci.org/tjohn/updates)
+
+Send reminders via text.
+
+## Install guide 
 
 Follow the instructions below.
 
