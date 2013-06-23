@@ -17,3 +17,7 @@
 
 # Ignore database yml
 /config/database.yml
+
+# Ignore gemsets for different machines
+.rvmrc
+.gemset-ruby
