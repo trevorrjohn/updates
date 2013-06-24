@@ -15,6 +15,7 @@ gem 'turbolinks'
 gem 'therubyracer'
 gem 'uglifier', '>= 1.3.0'
 gem 'unicorn', group: [ :production ]
+gem 'validates_email_format_of'
 
 gem 'sdoc', require: false, group: [ :doc ]
 
